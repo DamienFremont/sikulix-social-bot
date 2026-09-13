@@ -16,14 +16,14 @@ try:
     
     # post
     #click("pinterest-create-button-1.png")
-    sleep(1)  
+    #sleep(1)  
     #click("pinterest-pin-button.png")
-    runScript("../platform/firefox-url-goto", "https://fr.pinterest.com/pin-creation-tool/")
-    sleep(2)
+    #runScript("../platform/firefox-url-goto", "https://fr.pinterest.com/pin-creation-tool/")
+    #sleep(2)
     
     # add pict
     click("pinterest-create-upload.png")
-    sleep(1)
+    sleep(2)
 
     # select picture
     runScript("firefox-file-upload-2", ARG_IMAGE)

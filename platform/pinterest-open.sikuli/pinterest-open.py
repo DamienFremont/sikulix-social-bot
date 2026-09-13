@@ -1,4 +1,4 @@
-ARG_URL = "https://www.pinterest.com/"
+ARG_URL = "https://fr.pinterest.com/pin-creation-tool/"
 
 # focus navbar
 type("l", KeyModifier.CTRL)
