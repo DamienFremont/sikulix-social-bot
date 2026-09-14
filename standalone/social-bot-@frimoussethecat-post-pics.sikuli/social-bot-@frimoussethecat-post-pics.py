@@ -1,10 +1,10 @@
 # NOTE: Press Alt+Shift+C to to kill a running Sikuli script.
 
 # CONST
-ARG_ID    = "20230815_113007"
-ARG_TEXT  = " - Meow in Nantes, FRANCE. #pet #cat #france #frimoussethecat"
-ARG_TITLE = " - Meow in Nantes, FRANCE."
-ARG_DESCR = " - Meow in Nantes, FRANCE. Check me at https://linktr.ee/frimoussethecat #pet #cat #france #frimoussethecat"
+ARG_ID    = "20240707_183723"
+ARG_TEXT  = " - Frimousse, 14 years old, in Nantes, FRANCE. #pet #cat #france #frimoussethecat"
+ARG_TITLE = " - Frimousse, 14 years old, in Nantes, FRANCE."
+ARG_DESCR = " - Check me at https://linktr.ee/frimoussethecat #pet #cat #france #frimoussethecat"
 ARG_PATH = "file:c:/Users/damien/workspace/project-frimousse-social/"
 FF_CONT = "4"
 
@@ -34,7 +34,7 @@ try:
     # twitter
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/twitter-open")
-    runScript("../platform/twitter-post", POST_TEXT, POST_IMAGE)
+    runScript("../platform/twitter-post", POST_TEXT, POST_IMAGE)C
 
     # pinterest
     #runScript("../platform/firefox-container-new", ARG_FFC_ID)
