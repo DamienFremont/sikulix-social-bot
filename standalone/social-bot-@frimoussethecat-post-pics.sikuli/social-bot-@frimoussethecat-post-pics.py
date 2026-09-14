@@ -21,59 +21,59 @@ try:
     runScript("../platform/cmd-run", 'firefox')    
     runScript("../platform/windows-maximize")
     
-    # facebook
+    # Facebook
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/facebook-open")
     runScript("../platform/facebook-post", POST_TEXT, POST_IMAGE)
     
-    # instagram
+    # Instagram
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/instagram-open")
     runScript("../platform/instagram-post", POST_TEXT, POST_IMAGE)
     
-    # twitter
+    # X/Twitter
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/twitter-open")
     runScript("../platform/twitter-post", POST_TEXT, POST_IMAGE)C
 
-    # pinterest
+    # Pinterest
     #runScript("../platform/firefox-container-new", ARG_FFC_ID)
     #runScript("../platform/pinterest-open")
     #runScript("../platform/pinterest-post-pic", ARG_TXT, ARG_IMG_FN)
     
-    # imgur
+    # Imgur
     #runScript("../platform/firefox-container-new", ARG_FFC_ID)
     #runScript("../platform/imgur-open")
     #runScript("../platform/imgur-post-pic", ARG_TXT, ARG_IMG_FN)
     
-    # tumblr
+    # Tumblr
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/tumblr-open")
     runScript("../platform/tumblr-post", POST_TEXT, POST_IMAGE)
  
-    # flickr
+    # Flickr
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/flickr-open")
     runScript("../platform/flickr-post", POST_TITLE, POST_IMAGE, POST_DESCR)
     
-    # mastodon
+    # Mastodon
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/mastodon-open")
     runScript("../platform/mastodon-post", POST_TEXT, POST_IMAGE)
 
-    # cara
+    # Cara
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/cara-open")
     runScript("../platform/cara-post", POST_TEXT, POST_IMAGE)
     # FIXME next: empty tab 
     sleep(5)
     
-    # threads
+    # Threads
     runScript("../platform/firefox-container-new", FF_CONT)
     runScript("../platform/threads-open")
     runScript("../platform/threads-post", POST_TEXT, POST_IMAGE)   
     
-    # bluesky
+    # Bluesky
     #runScript("../platform/firefox-container-new", FF_CONT)
     #runScript("../platform/firefox-url-goto", "https://bsky.app/profile/frimoussethecat.bsky.social")
     
